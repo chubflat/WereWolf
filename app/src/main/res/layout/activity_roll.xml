@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/night"
+    tools:context="com.example.kazuaki.werewolf.Roll">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/addPlayer"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="プレイヤー数：xx人"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/playerList"
+            android:layout_below="@+id/addPlayer"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:layout_above="@+id/defaultSetting"/>
+        <Button
+            android:id="@+id/defaultSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_above="@+id/btnToTop"
+            android:textSize="20dip"
+            android:background="@drawable/button"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:text="推奨設定" />
+
+
+        <Button
+            android:id="@+id/btnToTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="20dip"
+            android:background="@drawable/button"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:text="@string/back" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+

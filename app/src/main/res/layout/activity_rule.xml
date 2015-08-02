@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/night"
+    tools:context="com.example.kazuaki.werewolf.Rule">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/canGuard"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_above="@+id/lack"
+            android:textSize="45px"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/lack"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_above="@+id/fortune"
+            android:textSize="45px"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/fortune"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_above="@+id/timer"
+            android:textSize="45px"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_above="@+id/recommend"
+            android:textSize="45px"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/recommend"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="推奨設定"
+            android:textSize="45px"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_above="@+id/btnToTop"
+            android:layout_marginTop="15dp"
+            />
+        <Button
+            android:id="@+id/btnToTop"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:textSize="45px"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:text="@string/back" />
+
+    </RelativeLayout>
+</LinearLayout>

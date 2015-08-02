@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">WereWolf</string>
+
+    <string name="hello_world">testtest</string>
+
+    // ファイル名
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_top">TopActivity</string>
+    <string name="title_activity_explain">Explain</string>
+    <string name="title_activity_roll">Roll</string>
+    <string name="title_activity_rule">Rule</string>
+    <string name="title_activity_player">Player</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_item_data">ItemData</string>
+    <string name="title_activity_item_adapter">ItemAdapter</string>
+    <string name="title_activity_game">Game</string>
+
+    // ボタン表示
+    <string name="back">"戻る"</string>
+    <string name="next">"次へ"</string>
+
+    // 役職名
+    <string name="card0">"村人"</string>
+    <string name="card1">"人狼"</string>
+    <string name="card2">"予言者"</string>
+    <string name="card3">"霊媒師"</string>
+    <string name="card4">"狂人"</string>
+    <string name="card5">"ボディーガード"</string>
+    <string name="card6">"共有者"</string>
+    <string name="card7">"妖狐"</string>
+
+
+    // 役職説明文
+    <string name="explain0">"あなたの役職は「村人」です。村人は特殊な能力を持たないただの一般人ですが、このゲームの主人公でもあります。他の村人や特殊能力を持った仲間たちと協力して人狼を処刑し、全滅させましょう。"</string>
+    <string name="explain1">"あなたの役職は「人狼」です。人狼は毎晩目を覚まし、村の人間を一人ずつ選んで喰い殺していきます。人狼同士で協力して人間を喰い尽くし、村を全滅させてしまいましょう。"</string>
+    <string name="explain2">"あなたの役職は「予言者」です。予言者は毎晩目を覚まし、自分が人狼だと疑っている人物を一人指定してその人物が人狼かそうでないかを知ることができます。"</string>
+    <string name="explain3">"あなたの役職は「霊媒師」です。霊媒師は毎晩目を覚まし、その昼のターン処刑によって殺された人物が人狼だったのかそうでなかったのかを、知ることができます。"</string>
+
+    // 行為説明
+    <string name="noAction">"特に行うアクションはありません。
+        数秒待ってから「次へ」を押してください。"</string>
+
+</resources>
