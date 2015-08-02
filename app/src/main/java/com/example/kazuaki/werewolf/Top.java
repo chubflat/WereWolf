@@ -21,7 +21,7 @@ public class Top extends Activity {
         Button btnToPlayer = (Button) findViewById(R.id.btnToPlayer);
         Button btnToRoll = (Button) findViewById(R.id.btnToRoll);
         Button btnToRule = (Button) findViewById(R.id.btnToRule);
-        Button btnStart = (Button) findViewById(R.id.btnStart);
+        Button start = (Button) findViewById(R.id.start);
 
         btnToExplain.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +52,7 @@ public class Top extends Activity {
                 startActivity(intent);
             }
         });
-        btnStart.setOnClickListener(new View.OnClickListener() {
+        start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Top.this, Game.class);
