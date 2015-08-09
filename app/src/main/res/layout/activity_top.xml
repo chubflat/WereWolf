@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_alignParentBottom="true"
-            android:textSize="20dip"
+            android:textSize="42px"
             android:background="@drawable/button"
             android:layout_marginBottom="10dip"
             android:layout_marginTop="10dip"
@@ -30,9 +30,9 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_above="@+id/btnStart"
+            android:layout_above="@+id/start"
             android:text="ルール設定"
-            android:textSize="20dip"
+            android:textSize="42px"
             android:background="@drawable/button"
             android:layout_marginTop="10dip"/>
 
@@ -44,7 +44,7 @@
             android:layout_centerVertical="true"
             android:layout_above="@+id/btnToRule"
             android:text="配役設定"
-            android:textSize="20dip"
+            android:textSize="42px"
             android:background="@drawable/button"
             android:layout_marginTop="10dip" />
 
@@ -56,7 +56,7 @@
             android:layout_centerVertical="true"
             android:layout_above="@+id/btnToRoll"
             android:text="プレイヤー設定"
-            android:textSize="20dip"
+            android:textSize="42px"
             android:background="@drawable/button"
             android:layout_marginTop="10dip" />
 
@@ -68,7 +68,7 @@
             android:layout_centerVertical="true"
             android:layout_above="@+id/btnToPlayer"
             android:text="役職一覧"
-            android:textSize="20dip"
+            android:textSize="42px"
             android:background="@drawable/button"
             android:layout_marginTop="10dip" />
 
@@ -82,7 +82,7 @@
             android:layout_alignParentTop="true"
             android:text="プレイヤー数："
             android:textColor="@color/white"
-            android:textSize="40dip"
+            android:textSize="72px"
             android:layout_marginTop="20dip"/>
     </RelativeLayout>
 </LinearLayout>

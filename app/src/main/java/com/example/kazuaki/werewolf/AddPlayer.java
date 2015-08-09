@@ -1,39 +1,28 @@
 package com.example.kazuaki.werewolf;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
 
 
-public class Player extends Activity {
+public class AddPlayer extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_player);
+        setContentView(R.layout.activity_add_player);
+        Button btnAddPlayer =(Button) findViewById(R.id.btnAddPlayer);
 
-        Button addPlayer =(Button) findViewById(R.id.addPlayer);
-
-        addPlayer.setOnClickListener(new View.OnClickListener() {
+        btnAddPlayer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(Player.this, AddPlayer.class);
+                // RollâÊñ Ç…ñﬂÇÈ
+                Intent intent = new Intent(AddPlayer.this, Roll.class);
                 startActivity(intent);
-            }
-        });
-
-        Button btnToTop =(Button) findViewById(R.id.btnToTop);
-
-        btnToTop.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent = new Intent(Player.this, Top.class);
-                startActivity(intent);
+                // ÉvÉåÉCÉÑÅ[Çí«â¡Ç∑ÇÈ
             }
         });
     }
@@ -41,7 +30,7 @@ public class Player extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_player, menu);
+        getMenuInflater().inflate(R.menu.menu_add_player, menu);
         return true;
     }
 

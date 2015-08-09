@@ -39,11 +39,17 @@ public class Explain extends Activity {
         Bitmap image1 = BitmapFactory.decodeResource(getResources(),R.drawable.card1);
         Bitmap image2 = BitmapFactory.decodeResource(getResources(),R.drawable.card2);
         Bitmap image3 = BitmapFactory.decodeResource(getResources(),R.drawable.card3);
+        Bitmap image4 = BitmapFactory.decodeResource(getResources(),R.drawable.card4);
+        Bitmap image5 = BitmapFactory.decodeResource(getResources(),R.drawable.card5);
+        Bitmap image6 = BitmapFactory.decodeResource(getResources(),R.drawable.card6);
         List<ItemData> objects = new ArrayList<ItemData>();
         objects.add(new ItemData(image0,"村人"));
         objects.add(new ItemData(image1,"人狼"));
         objects.add(new ItemData(image2,"予言者"));
         objects.add(new ItemData(image3,"霊媒師"));
+        objects.add(new ItemData(image4,"狂人"));
+        objects.add(new ItemData(image5,"ボディーガード"));
+        objects.add(new ItemData(image6,"共有者"));
         ItemAdapter adapter = new ItemAdapter(this,R.layout.listview,objects);
         // リストビュー表示
         ListView listView =(ListView)findViewById(R.id.listView);

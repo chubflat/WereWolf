@@ -17,6 +17,7 @@ public class Roll extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_roll);
 
+
         Button btnToTop =(Button) findViewById(R.id.btnToTop);
 
         btnToTop.setOnClickListener(new View.OnClickListener() {

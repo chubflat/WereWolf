@@ -20,7 +20,7 @@
             android:layout_centerVertical="true"
             android:background="@drawable/button"
             android:layout_margin="10dp"
-            android:textSize="20dp"
+            android:textSize="42px"
             android:text="プレイヤー追加"
             />
         <ListView
@@ -40,7 +40,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_above="@+id/btnToTop"
-            android:textSize="20dip"
+            android:textSize="42px"
             android:background="@drawable/button"
             android:layout_marginBottom="10dip"
             android:layout_marginTop="10dip"
@@ -54,11 +54,11 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_alignParentBottom="true"
-            android:textSize="20dip"
+            android:textSize="42px"
             android:background="@drawable/button"
             android:layout_marginBottom="10dip"
             android:layout_marginTop="10dip"
-            android:text="@string/back" />
+            android:text="戻る" />
 
     </RelativeLayout>
 </LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/night"
+    tools:context="com.example.kazuaki.werewolf.AddPlayer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/no_image"
+            android:layout_marginBottom="50dip"
+            android:layout_marginTop="50dip"
+            />
+
+        <EditText
+            android:id="@+id/addEditText"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/picture"
+            android:background="@color/white"
+            android:layout_marginTop="10dip"/>
+
+        <Button
+            android:id="@+id/btnAddPlayer"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button"
+            android:text="プレイヤー追加"
+            android:textSize="42px"
+            android:layout_marginTop="10dip" />
+
+
+    </RelativeLayout>
+</LinearLayout>

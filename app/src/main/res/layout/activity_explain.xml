@@ -11,7 +11,8 @@ android:background="@drawable/afternoon">
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/back"
+        android:text="戻る"
+        android:textSize="42px"
         android:background="@drawable/button"
         />
     <ListView

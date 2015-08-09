@@ -48,6 +48,10 @@
             android:name=".Game"
             android:label="@string/title_activity_game" >
         </activity>
+        <activity
+            android:name=".AddPlayer"
+            android:label="@string/title_activity_add_player" >
+        </activity>
     </application>
 
 </manifest>
