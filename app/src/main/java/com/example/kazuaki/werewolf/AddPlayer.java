@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class AddPlayer extends ActionBarActivity {
@@ -15,14 +17,14 @@ public class AddPlayer extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_player);
-        Button btnAddPlayer =(Button) findViewById(R.id.btnAddPlayer);
 
+        Button btnAddPlayer =(Button) findViewById(R.id.btnAddPlayer);
         btnAddPlayer.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View v) {
                 // RollâÊñ Ç…ñﬂÇÈ
                 Intent intent = new Intent(AddPlayer.this, Roll.class);
                 startActivity(intent);
-                // ÉvÉåÉCÉÑÅ[Çí«â¡Ç∑ÇÈ
             }
         });
     }

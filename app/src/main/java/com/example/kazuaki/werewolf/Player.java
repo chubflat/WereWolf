@@ -2,6 +2,8 @@ package com.example.kazuaki.werewolf;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,6 +12,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Player extends Activity {
@@ -36,6 +41,16 @@ public class Player extends Activity {
                 startActivity(intent);
             }
         });
+        // ListViewの項目セット
+        Intent intent = getIntent();
+        String[] playerdata = intent.getStringArrayExtra("playerdata");
+        ArrayAdapter<String>adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1);
+
+        // アイテム追加
+
+        // リストビュー表示
+        ListView listView =(ListView)findViewById(R.id.playerList);
+        listView.setAdapter(adapter);
     }
 
     @Override

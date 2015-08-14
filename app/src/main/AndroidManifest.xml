@@ -37,14 +37,6 @@
             android:label="@string/title_activity_player" >
         </activity>
         <activity
-            android:name=".ItemData"
-            android:label="@string/title_activity_item_data" >
-        </activity>
-        <activity
-            android:name=".ItemAdapter"
-            android:label="@string/title_activity_item_adapter" >
-        </activity>
-        <activity
             android:name=".Game"
             android:label="@string/title_activity_game" >
         </activity>
